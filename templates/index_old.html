@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>图像检索</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='dropzone.css') }}">
+<link rel="stylesheet" href="{{url_for('static', filename='bootstrap/css/bootstrap.min.css')}}">
+
+
+<style type="text/css">
+
+    .inputfile {
+
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+    .inputfile + label {
+
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: inline-block;
+    }
+
+    .inputfile:focus + label{
+        outline: 1px dotted #1654ff;
+    outline: -webkit-focus-ring-color auto 5px;
+    }
+    .inputfile + label:hover {
+        background-color: red;
+    }
+
+</style>
+</head>
+
+<body class="home">
+
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+         <form method="post" enctype="multipart/form-data" class="dropzone " >
+                 <!--<input type="file" name="photo" class="btn-upload" >-->
+
+             <!--<input type="file" name="photo" id="file" class="inputfile" />-->
+             <input type="file" name="photo" id="file" class="inputfile"  />
+            <label for="file">Choose a file</label>
+             <input class="btn btn-info btn-lg " type="submit" value="检索">
+         </form>
+        </div>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='dropzone.js') }}"></script>
+<script src="{{ url_for('static', filename='jquery-1.10.2.js') }}"></script>
+<script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+
+
+</body>
