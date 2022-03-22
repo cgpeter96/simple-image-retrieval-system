@@ -1,7 +1,7 @@
 # 图像检索系统(分类加检索)
 `使用部分deepfashion-inshop的数据`[data](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/InShopRetrieval.html)
 
-[website]:(https://cgpeter96.github.io/simple-image-retrieval-system/)
+[website](https://cgpeter96.github.io/simple-image-retrieval-system/)
 
 ## 使用库python3
 ```
