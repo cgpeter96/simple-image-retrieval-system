@@ -48,3 +48,6 @@ image_new/
 
 ---
 附上网盘地址，缺什么就来这里找，看不看的懂就不管了，哈哈哈。[想不想要剧毒的代码，小眼睛看过来](https://pan.baidu.com/s/1SLceVG1-KrOIIG6t3AhsJw)
+
+## 参考
+[flask-keras-cnn-image-retrieval](https://github.com/willard-yuan/flask-keras-cnn-image-retrieval)
